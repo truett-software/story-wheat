@@ -1,0 +1,31 @@
+https://afdsi.org/media/1217030000100913_wheat_ontology_causativeRelationship
+
+https://afdsi.com/wheat-ontology-graph/
+
+https://afdsi.com/wheat-ontology-triples/
+missing link to excel
+
+https://afdsi.com/wheat-traits-graph/
+
+https://afdsi.com/wheat-traits-vocabulary/
+
+https://afdsi.com/collection/collection-carousel/wheat/
+
+https://afdsi.com/media/1217030000100914_wheat_ontology_causativeRelationship_w1478_h2688_min.svg
+
+location
+E:\content\_main\___projects\amp-story-wheat-flour\wheat-agrontology-nalt-svg-cmap-zoom
+
+note:
+  implements SVG zoom
+<script type="text/javascript">
+const slider = document.getElementById("zoomRange");
+const zvgZoom = document.getElementById("svgZoom");
+const zoomValue = document.getElementById("zoomValue");
+
+slider.oninput = function() {
+    //console.log('zoom', this.value / 100);
+    zoomValue.innerText = `${this.value}%`;
+    zvgZoom.style.transform = `scale(${this.value / 100})`;
+}
+</script>

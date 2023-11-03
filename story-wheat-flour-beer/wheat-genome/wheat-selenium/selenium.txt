@@ -1,0 +1,32 @@
+
+Scope Notes: An element with the atomic symbol Se, atomic number 34, and atomic weight 78.96. It is an essential micronutrient for mammals and other animals but is toxic in large amounts. Selenium protects intracellular structures against oxidative damage. It is an essential component of GLUTATHIONE PEROXIDASE.
+Chemical – Gene Interaction
+
+Note 1: Selenium results in increased expression of MARCH2 mRNA
+https://en.wikipedia.org/wiki/MARCH2
+https://www.ncbi.nlm.nih.gov/nuccore/NM_001005415
+
+Note 2: Selenium results in decreased expression of MARCH6 mRNA
+https://en.wikipedia.org/wiki/MARCH6
+https://www.ncbi.nlm.nih.gov/nuccore/NM_001270660
+
+
+https://genome.ucsc.edu/cgi-bin/hgGene?hgg_gene=uc002mjw.1&hgg_prot=uc002mjw.1&hgg_chrom=chr19&hgg_start=8384186&hgg_end=8409899&hgg_type=knownGene&db=hg18&hgsid=885083769_XmzpppMRvr1jATuElF8VEL0bmZXX
+
+
+All Selenium
+https://wedge.ontomatica.io/ChEMATIC_-_19-09-06/Wedge?q=facet_MD_01:68009176
+
+Selenium Interaction: Human Genes and Chemicals
+https://wedge.ontomatica.io/ChEMATIC_-_19-09-06/Wedge?q=facet_MD_01:68009176&group=facet_AG_02
+
+
+increases expression of Ubiquitin-specific peptidases [HGNC:USP]
+https://wedge.ontomatica.io/ChEMATIC_-_19-09-06/Wedge?q=facet_AG_01:39072646/facet_AG_02:38024286/facet_MD_01:68009176&group=facet_AG_01
+https://jbiomedsci.biomedcentral.com/articles/10.1186/s12929-019-0522-0
+Loss of regulation by protein ubiquitination leads to various diseases, such as cancer. 
+
+
+decreases expression of 5-HT (serotonin) receptors [HGNC:HTR]
+https://wedge.ontomatica.io/ChEMATIC_-_19-09-06/Wedge?q=facet_AG_01:39036297/facet_AG_02:38011238/facet_MD_01:68009176&group=facet_AG_01
+https://en.wikipedia.org/wiki/5-HT_receptor

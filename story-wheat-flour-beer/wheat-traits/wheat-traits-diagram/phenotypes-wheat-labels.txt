@@ -1,0 +1,33 @@
+
+Examples of Root Traits Selected by Phenotyping and Incorporated into New Germplasm for Breeders
+
+Traits are selected directly with root phenotyping and/or indirectly with shoot phenotyping.
+
+Examples are restricted to abiotic soil limitations.
+
+Phenotypes for deep water capture have been:
+
+deeper and more extensive root growth selected directly in rhizoboxes
+  k [7]
+and with field coring
+  l [9]
+and indirectly with canopy temperature and greenness
+  a,b [18,19,21];
+and steeper roots (wide angle to soil surface) selected directly in baskets in pots of soil
+  i [8].
+
+To conserve water for grain development, a narrow xylem anatomy was directly selected using a macroscope and hand sectioning
+  e [10].
+
+Greater yield in drought-prone areas was increased by selecting for thicker tap roots along with optimal leaf width
+  g [11].
+
+Greater P use with shallower roots was selected directly on paper pouches
+  f [12]
+and indirectly with shoot biomass on low P soil
+  c [13].
+  
+Transporters for malate at root tips were identified directly in a solution culture screen, conferring tolerance to acidic and high Al soils
+  h [14],
+and transporters within roots and the leaf sheath were identified with a shoot screen in controlled conditions
+  d [15].

@@ -1,0 +1,28 @@
+
+Registration of ‘TAMsoft 700’ Wheat  [2010]
+https://agris.fao.org/agris-search/search.do?recordID=US201301806888
+
+see USDA
+_$_USDA_plant_registration_example_.pdf
+
+
+agrovoc keywords
+genetic resistance
+milling quality
+disease resistance
+plant breeding
+germplasm
+Mayetiola destructor
+pest resistance
+phenology
+Triticum aestivum
+
+TAMsoft 700 (Reg. No. CV-1042, PI 656607), a short, early-maturing, and apically awnletted soft red winter wheat (Triticum aestivum L.), was developed and released jointly by the Georgia Agricultural Experiment Station and Texas AgriLife Research in 2009.
+TAMsoft 700 was derived from the cross ‘Jackson’/2*GA881130 made in spring 1996 at the University of Georgia.
+The pedigree of GA88130 is KSH8998/FR 81-10//‘Gore’ (PI 561842).
+KSH8998 was developed from a cross between a hard red winter line and a Triticum tauschii (Coss.) Schmal line to transfer Hessian fly [Mayetiola destructor (Say)] resistance gene H13.
+FR 81-10 was selected due to its resistance to leaf rust (caused by Puccinia recondita Roberge ex Desmaz) based on the Lr37 gene and stripe rust (caused by Puccinia striiformis Westend.) based on Yr17 gene, from the cross ‘Novisad 138’/4(4) Aegilops ventricosa Tausch/Triticum persicum (Boiss.) Aitch. & Hemsl./2/‘Marve’*3/3/‘Moisson’ (PI 315998).
+TAMsoft 700 was released on the basis of its excellent grain yield under heavy Hessian fly infestation conditions in north central and eastern Texas.
+It also possesses good resistance to prevailing races of leaf rust, stripe rust, and powdery mildew (caused by Erysiphe graminis DC.
+f. sp. tritici Em. Marchal) in north-central and eastern Texas.
+Milling and baking quality characteristics of TAMsoft 700 were rated as acceptable for soft red winter wheat use by the USDA–ARS Soft Wheat Quality Laboratory in Wooster, OH.

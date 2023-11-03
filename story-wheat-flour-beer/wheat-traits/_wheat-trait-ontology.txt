@@ -1,0 +1,34 @@
+
+wheat trait ontology
+  cytology related trait
+    chromosome number
+      
+      
+  quality trait
+    flour falling number
+    grain falling number
+    grain hardness
+    semolina protein content
+    grain protein content
+    flour protein content
+    high molecular weight glutenin subunit composition (HMW-Glu)
+      HMW-Glu 1A
+      HMW-Glu 1B
+      HMW-Glu 1D
+    low molecular weight glutenin subunit composition (LMW-Glu)
+      LMW-Glu 1A
+      LMW-Glu 1B
+      LMW-Glu 1D
+
+
+https://en.wikipedia.org/wiki/Glutenin
+
+UM
+molar masses from about 200,000 to a few million
+Class: Molecular Mass
+Term IRI: http://purl.obolibrary.org/obo/NCIT_C28272
++ Property or Attribute
+
+    + Characteristic
+        + Weight
+            - Molecular Mass

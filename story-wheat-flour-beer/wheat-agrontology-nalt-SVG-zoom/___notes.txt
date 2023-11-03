@@ -1,0 +1,21 @@
+
+11:57 8/5/2023
+updated
+  _wheat-causativeRelationship-w1478-h2688-zoom.svg.html
+standard headers
+
+need to update other instances
+------------------------------
+
+each has zoom
+
+with IDN
+1217030000100914-wheat-ontology-causativeRelationship-w1478-h2688-zoom.svg.html
+1217030000100916-wheat-ontology-cereal-leaf-beetle-w1334-h1206-zoom.svg.html
+1217030000100918-wheat-ontology-instrumentalRelationship-w1528-h2442-zoom.svg.html
+1217030000100920-wheat-ontology-partitiveRelationship-w3377-h4211-zoom.svg.html
+1217030000100922-wheat-ontology-quantitativeRelationship-w2258-h1014-zoom.svg.html
+1217030000100924-wheat-ontology-spacialRelationship-w1704-h642-zoom.svg.html
+1217030000100926-wheat-ontology-taxanomicRelationship-w918-h1374-zoom.svg.html
+1217030000100928-wheat-ontology-temporalRelationship-w822-h475-zoom.svg.html
+

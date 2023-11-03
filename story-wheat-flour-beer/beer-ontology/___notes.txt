@@ -1,0 +1,31 @@
+
+has a structure problem
+  beer.owl
+
+using
+  beer.ttl
+works with rhizomik
+
+however
+  beer.owl
+is incomplete on LODE
+
+beer.svg.html was generated using
+  beer.ttl
+
+
+typo
+Ahe style is characterized by having a large percentage of malted or unmalted whea
+
+
+the only french displayed looks like this (does not use @fr - uses @en)
+
+:brewedBy
+    void:inDataset :datasetdefinition ;
+    a owl:objectProperty ;
+    rdfs:comment "Cette propriété est probablement la moins définie dans cette ontologie. Bien que flexible ontologiquement avec une equivalence à plusieurs cas et vocabulaires, elle est conçu comme un fourre-tout pour les situations où une relation \"bon sens\" exister sans être immédiatement évidente."@en, "This is likely the least defined property within this ontology. While ontologically flexible to a number of different vocabulary, it is meant as a catch-all for situations where a common sense relationship is known to exist while not being immediatly obvious."@en ;
+
+TODO
+use unicode for symbols
+
+left justify skos:description ""

@@ -1,0 +1,477 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix gs1: <http://gs1.org/voc/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://aims.fao.org/aos/agrontology#causes> a schema:Property;
+  schema:domainIncludes <http://lod.nal.usda.gov/nalt/430>;
+  schema:name "Causes";
+  schema:rangeIncludes <http://lod.nal.usda.gov/nalt/6555> .
+
+<http://aims.fao.org/aos/agrontology#controls> a schema:Property;
+  schema:domainIncludes <http://lod.nal.usda.gov/nalt/13378>;
+  schema:name "Controls";
+  schema:rangeIncludes <http://lod.nal.usda.gov/nalt/13718> .
+
+<http://aims.fao.org/aos/agrontology#hasGoalOrProcess> a schema:Property;
+  schema:domainIncludes <http://lod.nal.usda.gov/nalt/44778>;
+  schema:name "Has goal or process";
+  schema:rangeIncludes <http://lod.nal.usda.gov/nalt/15555> .
+
+<http://aims.fao.org/aos/agrontology#hasMember> a schema:Property;
+  schema:domainIncludes <http://lod.nal.usda.gov/nalt/2179>,
+    gs1:AllergenDetails,
+    <http://lod.nal.usda.gov/nalt/13161>;
+  schema:name "has Member",
+    "Has member";
+  schema:rangeIncludes <http://lod.nal.usda.gov/nalt/33437>,
+    <http://lod.nal.usda.gov/nalt/20343>,
+    <http://lod.nal.usda.gov/nalt/13161>,
+    gs1:AllergenTypeCode-WHEAT .
+
+<http://aims.fao.org/aos/agrontology#hasPart> a schema:Property;
+  schema:domainIncludes <http://lod.nal.usda.gov/nalt/67322>;
+  schema:name "Has part";
+  schema:rangeIncludes <http://lod.nal.usda.gov/nalt/8>,
+    <http://lod.nal.usda.gov/nalt/876> .
+
+<http://aims.fao.org/aos/agrontology#hasPest> a schema:Property;
+  schema:domainIncludes <http://lod.nal.usda.gov/nalt/67322>;
+  schema:name "Has pest";
+  schema:rangeIncludes <http://lod.nal.usda.gov/nalt/13378> .
+
+<http://aims.fao.org/aos/agrontology#hasType> a schema:Property;
+  schema:domainIncludes <http://lod.nal.usda.gov/nalt/408>,
+    <http://lod.nal.usda.gov/nalt/8>,
+    <http://lod.nal.usda.gov/nalt/13718>,
+    <http://lod.nal.usda.gov/nalt/39377>,
+    <http://lod.nal.usda.gov/nalt/876>;
+  schema:name "Has type";
+  schema:rangeIncludes <http://lod.nal.usda.gov/nalt/8>,
+    <http://lod.nal.usda.gov/nalt/33437>,
+    <http://lod.nal.usda.gov/nalt/43219>,
+    <http://lod.nal.usda.gov/nalt/15555>,
+    <http://lod.nal.usda.gov/nalt/67322> .
+
+<http://aims.fao.org/aos/agrontology#isAchievedByMeansOf> a schema:Property;
+  schema:domainIncludes <http://lod.nal.usda.gov/nalt/15555>;
+  schema:name "Is achieved by means of";
+  schema:rangeIncludes <http://lod.nal.usda.gov/nalt/44778> .
+
+<http://aims.fao.org/aos/agrontology#isCausedBy> a schema:Property;
+  schema:domainIncludes <http://lod.nal.usda.gov/nalt/6555>;
+  schema:name "Is caused by";
+  schema:rangeIncludes <http://lod.nal.usda.gov/nalt/430> .
+
+<http://aims.fao.org/aos/agrontology#isControlledBy> a schema:Property;
+  schema:domainIncludes <http://lod.nal.usda.gov/nalt/13718>;
+  schema:name "Is controlled by";
+  schema:rangeIncludes <http://lod.nal.usda.gov/nalt/13378> .
+
+<http://aims.fao.org/aos/agrontology#isDerivedFrom> a schema:Property;
+  schema:domainIncludes <http://lod.nal.usda.gov/nalt/33437>,
+    <http://lod.nal.usda.gov/nalt/430>;
+  schema:name "Is derived from";
+  schema:rangeIncludes <http://lod.nal.usda.gov/nalt/67322> .
+
+<http://aims.fao.org/aos/agrontology#isMadeFrom> a schema:Property;
+  schema:domainIncludes <http://lod.nal.usda.gov/nalt/15555>;
+  schema:name "Is made from";
+  schema:rangeIncludes <http://lod.nal.usda.gov/nalt/430>,
+    <http://lod.nal.usda.gov/nalt/6435> .
+
+<http://aims.fao.org/aos/agrontology#isMemberOf> a schema:Property;
+  schema:domainIncludes <http://lod.nal.usda.gov/nalt/33437>,
+    <http://lod.nal.usda.gov/nalt/13161>;
+  schema:name "Is member of";
+  schema:rangeIncludes <http://lod.nal.usda.gov/nalt/2179>,
+    <http://lod.nal.usda.gov/nalt/13161> .
+
+<http://aims.fao.org/aos/agrontology#isPartOf> a schema:Property;
+  schema:domainIncludes <http://lod.nal.usda.gov/nalt/8>,
+    <http://lod.nal.usda.gov/nalt/876>;
+  schema:name "Is part of";
+  schema:rangeIncludes <http://lod.nal.usda.gov/nalt/67322> .
+
+<http://aims.fao.org/aos/agrontology#isPhysiologicalFunctionOf> a schema:Property;
+  schema:domainIncludes gs1:AllergenDetails;
+  schema:name "is Physiological Function Of";
+  schema:rangeIncludes <http://lod.nal.usda.gov/nalt/20343>,
+    gs1:AllergenTypeCode-WHEAT .
+
+<http://aims.fao.org/aos/agrontology#isRelatedTypeOf> a schema:Property;
+  schema:domainIncludes <http://lod.nal.usda.gov/nalt/33437>,
+    <http://lod.nal.usda.gov/nalt/43219>,
+    gs1:AllergenTypeCode-GLUTEN;
+  schema:name "is Related Type Of",
+    "Is a related type of";
+  schema:rangeIncludes <http://lod.nal.usda.gov/nalt/8>,
+    <http://lod.nal.usda.gov/nalt/43219>,
+    <http://lod.nal.usda.gov/nalt/876> .
+
+<http://aims.fao.org/aos/agrontology#isSourceOf> a schema:Property;
+  schema:domainIncludes <http://lod.nal.usda.gov/nalt/67322>;
+  schema:name "Is source of";
+  schema:rangeIncludes <http://lod.nal.usda.gov/nalt/33437>,
+    <http://lod.nal.usda.gov/nalt/430> .
+
+<http://aims.fao.org/aos/agrontology#isSpatiallyIncludedInCity> a schema:Property;
+  schema:domainIncludes <http://lod.nal.usda.gov/nalt/67322>;
+  schema:name "Is spatially included in city";
+  schema:rangeIncludes <http://lod.nal.usda.gov/nalt/52916> .
+
+<http://aims.fao.org/aos/agrontology#isStudiedBy> a schema:Property;
+  schema:domainIncludes <http://lod.nal.usda.gov/nalt/13161>;
+  schema:name "Is studied by";
+  schema:rangeIncludes <https://pubag.nal.usda.gov/catalog/48659> .
+
+<http://aims.fao.org/aos/agrontology#isUsedToMake> a schema:Property;
+  schema:domainIncludes <http://lod.nal.usda.gov/nalt/430>,
+    <http://lod.nal.usda.gov/nalt/6435>;
+  schema:name "Is used to make";
+  schema:rangeIncludes <http://lod.nal.usda.gov/nalt/15555> .
+
+<http://aims.fao.org/aos/agrontology#pestOf> a schema:Property;
+  schema:domainIncludes <http://lod.nal.usda.gov/nalt/13378>;
+  schema:name "Is a pest of";
+  schema:rangeIncludes <http://lod.nal.usda.gov/nalt/67322> .
+
+<http://aims.fao.org/aos/agrontology#spatiallyIncludes> a schema:Property;
+  schema:domainIncludes <http://lod.nal.usda.gov/nalt/52916>;
+  schema:name "Spatially includes";
+  schema:rangeIncludes <http://lod.nal.usda.gov/nalt/67322> .
+
+<http://aims.fao.org/aos/agrontology#study> a schema:Property;
+  schema:domainIncludes <https://pubag.nal.usda.gov/catalog/48659>;
+  schema:name "Study";
+  schema:rangeIncludes <http://lod.nal.usda.gov/nalt/13161> .
+
+<http://aims.fao.org/aos/agrontology#typeOf> a schema:Property;
+  schema:domainIncludes <http://lod.nal.usda.gov/nalt/8>,
+    <http://lod.nal.usda.gov/nalt/15555>,
+    <http://lod.nal.usda.gov/nalt/67322>;
+  schema:name "Type of";
+  schema:rangeIncludes <http://lod.nal.usda.gov/nalt/408>,
+    <http://lod.nal.usda.gov/nalt/13718>,
+    <http://lod.nal.usda.gov/nalt/39377> .
+
+<http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#induces> a schema:Property;
+  schema:domainIncludes <http://lod.nal.usda.gov/nalt/6555>;
+  schema:name "induces";
+  schema:rangeIncludes <http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000011146> .
+
+<http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#may_treat> a schema:Property;
+  schema:domainIncludes <https://pubchem.ncbi.nlm.nih.gov/compound/3100>,
+    <http://lod.nal.usda.gov/nalt/4355>;
+  schema:name "may treat";
+  schema:rangeIncludes <http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000011146> .
+
+gs1:FoodBeverageTobaccoProduct a schema:Class;
+  schema:description "A food, beverage or tobacco product.";
+  schema:name "Food Beverage Tobacco Product";
+  schema:supersededBy gs1:Product .
+
+gs1:allergenSpecificationName a schema:Property;
+  schema:domainIncludes <http://lod.nal.usda.gov/nalt/39377>;
+  schema:name "allergen Specification Name";
+  schema:rangeIncludes <http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000011146> .
+
+gs1:allergenType a schema:Property;
+  schema:domainIncludes <http://lod.nal.usda.gov/nalt/39377>;
+  schema:name "allergen Type";
+  schema:rangeIncludes gs1:AllergenTypeCode-GLUTEN .
+
+gs1:growingMethod a schema:Property;
+  schema:domainIncludes <http://lod.nal.usda.gov/nalt/39377>,
+    gs1:GrowingMethodCode;
+  schema:name "growing Method";
+  schema:rangeIncludes gs1:GrowingMethodCode-FIELD_GROWN,
+    gs1:GrowingMethodCode .
+
+gs1:hasAllergen a schema:Property;
+  schema:domainIncludes <http://lod.nal.usda.gov/nalt/39377>;
+  schema:name "has Allergen";
+  schema:rangeIncludes gs1:AllergenDetails .
+
+<http://purl.obolibrary.org/obo/GENO_0000414> a schema:Property;
+  schema:domainIncludes <http://lod.nal.usda.gov/nalt/33437>,
+    <http://lod.nal.usda.gov/nalt/43219>;
+  schema:name "targets gene";
+  schema:rangeIncludes <http://amigo.geneontology.org/amigo/gene_product/UniProtKB:E5RQL4>,
+    <http://amigo.geneontology.org/amigo/gene_product/UniProtKB:O95954> .
+
+schema:author a schema:Property;
+  schema:domainIncludes <https://pubag.nal.usda.gov/catalog/48659>;
+  schema:name "author";
+  schema:rangeIncludes <https://www.ars.usda.gov/people-locations/person?person-id=44775> .
+
+schema:sameAs a schema:Property;
+  schema:domainIncludes <http://lod.nal.usda.gov/nalt/33437>,
+    <http://lod.nal.usda.gov/nalt/67322>;
+  schema:name "same as";
+  schema:rangeIncludes <http://dbpedia.org/page/Winter_wheat>,
+    <https://pubchem.ncbi.nlm.nih.gov/compound/6326970> .
+
+owl:ObjectProperty a schema:Property;
+  schema:domainIncludes <http://dbpedia.org/page/Winter_wheat>;
+  schema:name "ObjectProperty";
+  schema:rangeIncludes dbo:Image .
+
+<http://amigo.geneontology.org/amigo/gene_product/UniProtKB:E5RQL4> a schema:Class;
+  schema:description "";
+  schema:name "Formiminotransferase N-terminal subdomain-containing protein" .
+
+<http://amigo.geneontology.org/amigo/gene_product/UniProtKB:O95954> a schema:Class;
+  schema:description "";
+  schema:name "Formimidoyltransferase-cyclodeaminase";
+  schema:sameAs <https://www.wikidata.org/wiki/Q5470206> .
+
+gs1:GrowingMethodCode-FIELD_GROWN a schema:Class;
+  schema:description "Plants Grown Outdoors";
+  schema:name "Field Grown";
+  schema:supersededBy gs1:GrowingMethodCode .
+
+gs1:Product a schema:Class;
+  schema:description "Product";
+  schema:name "Product";
+  schema:supersededBy owl:Thing .
+
+<http://lod.nal.usda.gov/nalt/127306> a schema:Class;
+  schema:description "";
+  schema:name "Physical and Chemical Sciences";
+  schema:sameAs <https://www.wikidata.org/wiki/Q14632398> .
+
+<http://lod.nal.usda.gov/nalt/13160> a schema:Class;
+  schema:description "";
+  schema:name "assays";
+  schema:sameAs <https://www.wikidata.org/wiki/Q739897> .
+
+<http://lod.nal.usda.gov/nalt/15551> a schema:Class;
+  schema:description "";
+  schema:name "baked goods";
+  schema:sameAs <https://www.wikidata.org/wiki/Q720398> .
+
+<http://lod.nal.usda.gov/nalt/17366> a schema:Class;
+  schema:description "";
+  schema:name "catecholamines";
+  schema:sameAs <https://www.wikidata.org/wiki/Q271663> .
+
+<http://lod.nal.usda.gov/nalt/2047> a schema:Class;
+  schema:description "Asteraceae (commonly referred to as the aster, daisy, composite, or sunflower family) is a very large and widespread family of flowering plants (Angiospermae).";
+  schema:name "Asteraceae";
+  schema:sameAs <https://www.wikidata.org/wiki/Q25400> .
+
+<http://lod.nal.usda.gov/nalt/2178> a schema:Class;
+  schema:description "Metrology is the science of measurement. It establishes a common understanding of units, crucial in linking human activities.";
+  schema:name "metrology";
+  schema:sameAs <https://www.wikidata.org/wiki/Q394> .
+
+<http://lod.nal.usda.gov/nalt/23687> a schema:Class;
+  schema:description "";
+  schema:name "Midwestern United States";
+  schema:sameAs <https://www.wikidata.org/wiki/Q186545> .
+
+<http://lod.nal.usda.gov/nalt/24046> a schema:Class;
+  schema:description "";
+  schema:name "glutelins";
+  schema:sameAs <https://www.wikidata.org/wiki/Q1510553> .
+
+<http://lod.nal.usda.gov/nalt/340> a schema:Class;
+  schema:description "Disorders caused by abnormal or absent immunologic mechanisms, whether humoral, cell-mediated or both.";
+  schema:name "immunologic diseases";
+  schema:sameAs <https://www.wikidata.org/wiki/Q3043160> .
+
+<http://lod.nal.usda.gov/nalt/3919> a schema:Class;
+  schema:description "";
+  schema:name "thermodynamics";
+  schema:sameAs <https://www.wikidata.org/wiki/Q11473> .
+
+<http://lod.nal.usda.gov/nalt/4355> a schema:Class;
+  schema:description "";
+  schema:name "epinephrine";
+  schema:sameAs <https://www.wikidata.org/wiki/Q132621>;
+  schema:supersededBy <http://lod.nal.usda.gov/nalt/17366> .
+
+<http://lod.nal.usda.gov/nalt/5259> a schema:Class;
+  schema:description "";
+  schema:name "agricultural products";
+  schema:sameAs <https://www.wikidata.org/wiki/Q11451> .
+
+<http://lod.nal.usda.gov/nalt/67> a schema:Class;
+  schema:description "A science dealing with the properties, distribution, and circulation of water, specifically the study of water on the surface of land, in the soil and underlying rocks, and in the atmosphere, particularly with respect to evaporation and precipitation.";
+  schema:name "hydrology";
+  schema:sameAs <https://www.wikidata.org/wiki/Q42250> .
+
+<http://lod.nal.usda.gov/nalt/7657> a schema:Class;
+  schema:description "";
+  schema:name "triazine herbicides";
+  schema:sameAs <https://www.wikidata.org/wiki/Q419563> .
+
+<http://lod.nal.usda.gov/nalt/7782> a schema:Class;
+  schema:description "";
+  schema:name "amino acids, peptides and proteins";
+  schema:sameAs <https://www.wikidata.org/wiki/Q8066> .
+
+<https://pubchem.ncbi.nlm.nih.gov/compound/3100> a schema:Class;
+  schema:description "Diphenhydramine is an antihistamine mainly used to treat allergies. It is also used for insomnia, symptoms of the common cold, tremor in parkinsonism, and nausea. It is used by mouth, injection into a vein, and injection into a muscle. Maximal effect is typically around two hours after a dose, and effects can last for up to seven hours.";
+  schema:name "diphenhydramine";
+  schema:sameAs <https://www.wikidata.org/wiki/Q413486> .
+
+<https://pubchem.ncbi.nlm.nih.gov/compound/6326970> a schema:Class;
+  schema:description "Selenium is a chemical element with symbol Se and atomic number 34. It is a nonmetal with properties that are intermediate between the elements above and below in the periodic table, sulfur and tellurium, and also has similarities to arsenic.";
+  schema:name "selenium";
+  schema:sameAs <https://www.wikidata.org/wiki/Q876> .
+
+gs1:AllergenTypeCode a schema:Class;
+  schema:description "Code specifying the type of allergen.";
+  schema:name "Allergen Type Code";
+  schema:supersededBy gs1:TypeCode .
+
+gs1:AllergenTypeCode-GLUTEN a schema:Class;
+  schema:description "Refers to the presense of other gluten containing grain and gluten containing grain products as listed in the regulations specified in AllergenSpecificationAgency and AllergenSpecificationName.";
+  schema:name "Gluten";
+  schema:supersededBy gs1:AllergenTypeCode .
+
+gs1:AllergenTypeCode-WHEAT a schema:Class;
+  schema:description "Refers to the presence of wheat and their derivatives in the product, as listed in the regulations specified in AllergenSpecificationAgency and AllergenSpecificationName";
+  schema:name "Wheat and Their Derivatives";
+  schema:supersededBy gs1:AllergenTypeCode .
+
+gs1:TypeCode a schema:Class;
+  schema:description "Type Code";
+  schema:name "Type Code";
+  schema:supersededBy owl:Thing .
+
+<http://lod.nal.usda.gov/nalt/12372> a schema:Class;
+  schema:description "Elements occurring in minute quantities in nature.";
+  schema:name "trace elements";
+  schema:sameAs <https://www.wikidata.org/wiki/Q351792> .
+
+<http://lod.nal.usda.gov/nalt/20343> a schema:Class;
+  schema:description "";
+  schema:name "wheat products";
+  schema:sameAs <https://www.wikidata.org/wiki/Q15645384> .
+
+<http://lod.nal.usda.gov/nalt/2179> a schema:Class;
+  schema:description "";
+  schema:name "measurement";
+  schema:sameAs <http://aims.fao.org/aos/agrovoc/c_4668>;
+  schema:supersededBy <http://lod.nal.usda.gov/nalt/2178> .
+
+<http://lod.nal.usda.gov/nalt/44778> a schema:Class;
+  schema:description "";
+  schema:name "heat";
+  schema:sameAs <http://aims.fao.org/aos/agrovoc/c_3519>;
+  schema:supersededBy <http://lod.nal.usda.gov/nalt/3919> .
+
+<http://lod.nal.usda.gov/nalt/52916> a schema:Class;
+  schema:description "";
+  schema:name "North Dakota";
+  schema:sameAs <http://aims.fao.org/aos/agrovoc/c_5223>;
+  schema:supersededBy <http://lod.nal.usda.gov/nalt/23687> .
+
+<http://lod.nal.usda.gov/nalt/6435> a schema:Class;
+  schema:description "";
+  schema:name "water";
+  schema:sameAs <http://aims.fao.org/aos/agrovoc/c_8309>;
+  schema:supersededBy <http://lod.nal.usda.gov/nalt/67> .
+
+<http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000011146> a schema:Class;
+  schema:description "Wheat allergy is an allergy to wheat which typically presents itself as a food allergy, but can also be a contact allergy resulting from occupational exposure. Like all allergies, wheat allergy involves immunoglobulin E and mast cell response. Typically the allergy is limited to the seed storage proteins of wheat. Some reactions are restricted to wheat proteins, while others can react across many varieties of seeds and other plant tissues.";
+  schema:name "wheat hypersensitivity";
+  schema:sameAs <https://www.wikidata.org/wiki/Q4413030> .
+
+gs1:AllergenDetails a schema:Class;
+  schema:description "Details of an allergen for a product.";
+  schema:name "Allergen Details";
+  schema:supersededBy owl:Thing .
+
+gs1:GrowingMethodCode a schema:Class;
+  schema:description "";
+  schema:name "Growing Method Code";
+  schema:supersededBy gs1:TypeCode .
+
+<http://lod.nal.usda.gov/nalt/408> a schema:Class;
+  schema:description "Food is any substance consumed to provide nutritional support for an organism. It is usually of plant or animal origin, and contains essential nutrients, such as carbohydrates, fats, proteins, vitamins, or minerals. The substance is ingested by an organism and assimilated by the organism's cells to provide energy, maintain life, or stimulate growth.";
+  schema:name "foods";
+  schema:sameAs <http://aims.fao.org/aos/agrovoc/c_3032>;
+  schema:supersededBy <http://lod.nal.usda.gov/nalt/5259> .
+
+<http://lod.nal.usda.gov/nalt/6555> a schema:Class;
+  schema:description "Altered reactivity to an antigen, which can result in pathologic reactions upon subsequent exposure to that particular antigen.";
+  schema:name "hypersensitivity";
+  schema:sameAs <http://aims.fao.org/aos/agrovoc/c_274>;
+  schema:supersededBy <http://lod.nal.usda.gov/nalt/340> .
+
+<https://pubag.nal.usda.gov/catalog/48659> a schema:Class;
+  schema:description "";
+  schema:name "Impact of Wheat Grain Selenium Content Variation on Milling and Bread Baking";
+  schema:sameAs <https://onlinelibrary.wiley.com/doi/abs/10.1094/CCHEM-05-10-0076> .
+
+<http://lod.nal.usda.gov/nalt/13378> a schema:Class;
+  schema:description "";
+  schema:name "Senecio";
+  schema:sameAs <http://aims.fao.org/aos/agrovoc/c_14198>;
+  schema:supersededBy <http://lod.nal.usda.gov/nalt/2047> .
+
+<http://lod.nal.usda.gov/nalt/13718> a schema:Class;
+  schema:description "";
+  schema:name "atrazine";
+  schema:sameAs <http://aims.fao.org/aos/agrovoc/c_31256>;
+  schema:supersededBy <http://lod.nal.usda.gov/nalt/7657> .
+
+<http://lod.nal.usda.gov/nalt/43219> a schema:Class;
+  schema:description "";
+  schema:name "glutenins";
+  schema:sameAs <http://aims.fao.org/aos/agrovoc/c_24033>;
+  schema:supersededBy <http://lod.nal.usda.gov/nalt/24046> .
+
+<http://lod.nal.usda.gov/nalt/876> a schema:Class;
+  schema:description "Proteins are large biomolecules, or macromolecules, consisting of one or more long chains of amino acid residues. Proteins perform a vast array of functions within organisms, including catalysing metabolic reactions, DNA replication, responding to stimuli, and transporting molecules from one location to another. Proteins differ from one another primarily in their sequence of amino acids, which is dictated by the nucleotide sequence of their genes, and which usually results in protein folding into a specific three-dimensional structure that determines its activity.";
+  schema:name "proteins";
+  schema:sameAs <http://aims.fao.org/aos/agrovoc/c_6295>;
+  schema:supersededBy <http://lod.nal.usda.gov/nalt/7782> .
+
+<http://lod.nal.usda.gov/nalt/13161> a schema:Class;
+  schema:description "A method of measuring the effects of a biologically active substance using a living organism in vivo or in vitro tissue or cell model under controlled conditions.";
+  schema:name "bioassays";
+  schema:sameAs <http://aims.fao.org/aos/agrovoc/c_15731>;
+  schema:supersededBy <http://lod.nal.usda.gov/nalt/13160> .
+
+<http://lod.nal.usda.gov/nalt/15555> a schema:Class;
+  schema:description "";
+  schema:name "breads";
+  schema:sameAs <http://aims.fao.org/aos/agrovoc/c_1071>;
+  schema:supersededBy <http://lod.nal.usda.gov/nalt/15551> .
+
+<http://lod.nal.usda.gov/nalt/430> a schema:Class;
+  schema:description "Flour is a powder made by grinding raw grains or roots and used to make many different foods. Cereal flour is the main ingredient of bread, which is a staple food for most cultures. Wheat flour is one of the most important ingredients in Oceanic, European, South American, North American, Middle Eastern, North Indian and North African cultures, and is the defining ingredient in their styles of breads and pastries.";
+  schema:name "flour";
+  schema:sameAs <http://aims.fao.org/aos/agrovoc/c_2988>;
+  schema:supersededBy <http://lod.nal.usda.gov/nalt/408> .
+
+<http://lod.nal.usda.gov/nalt/8> a schema:Class;
+  schema:description "A chemical compound is a chemical substance composed of many identical molecules (or molecular entities) composed of atoms from more than one element held together by chemical bonds. A chemical element bonded to an identical chemical element is not a chemical compound since only one element, not two different elements, is involved.";
+  schema:name "chemical compounds";
+  schema:sameAs <http://aims.fao.org/aos/agrovoc/c_49870>;
+  schema:supersededBy <http://lod.nal.usda.gov/nalt/127306> .
+
+<http://lod.nal.usda.gov/nalt/39377> a schema:Class;
+  schema:description "";
+  schema:name "wheat";
+  schema:sameAs <http://aims.fao.org/aos/agrovoc/c_8373>;
+  schema:supersededBy <http://lod.nal.usda.gov/nalt/12372> .
+
+<http://lod.nal.usda.gov/nalt/33437> a schema:Class;
+  schema:description "";
+  schema:name "selenium";
+  schema:sameAs <http://aims.fao.org/aos/agrovoc/c_6953>;
+  schema:supersededBy <http://lod.nal.usda.gov/nalt/12372> .
+
+<http://lod.nal.usda.gov/nalt/67322> a schema:Class;
+  schema:description "A general term for wheat sown in the fall, persisting through the winter as seedlings, and harvested the following spring or summer after it reaches full maturity.";
+  schema:name "winter wheat";
+  schema:sameAs <http://aims.fao.org/aos/agrovoc/c_8412>;
+  schema:supersededBy <http://lod.nal.usda.gov/nalt/39377> .
