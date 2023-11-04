@@ -1,0 +1,19 @@
+<!--
+SMV valid
+-->
+
+<script type="application/ld+json">
+{"@graph":[
+{"@type":"Class","@id":"http://gs1.org/voc/AllergenDetails","name":"Allergen Details","description":"Details of an allergen for a product.","sameAs":"","supersededBy":{"@id":"http://www.w3.org/2002/07/owl#Thing"}},
+{"@type":"Class","@id":"http://gs1.org/voc/Product","name":"Product","description":"Product","sameAs":"","supersededBy":{"@id":"http://www.w3.org/2002/07/owl#Thing"}},
+{"@type":"Class","@id":"http://gs1.org/voc/FoodBeverageTobaccoProduct","name":"Food Beverage Tobacco Product","description":"A food, beverage or tobacco product.","sameAs":"","supersededBy":{"@id":"http://gs1.org/voc/Product"}},
+{"@type":"Class","@id":"http://gs1.org/voc/AllergenTypeCode","name":"Allergen Type Code","description":"Code specifying the type of allergen.","sameAs":"","supersededBy":{"@id":"http://gs1.org/voc/TypeCode"}},
+{"@type":"Class","@id":"http://gs1.org/voc/GrowingMethodCode","name":"Growing Method Code","description":"","sameAs":"","supersededBy":{"@id":"http://gs1.org/voc/TypeCode"}},
+{"@type":"Class","@id":"http://gs1.org/voc/TypeCode","name":"Type Code","description":"Type Code","sameAs":"","supersededBy":{"@id":"http://www.w3.org/2002/07/owl#Thing"}},
+{"@type":"Class","@id":"http://gs1.org/voc/AllergenTypeCode-GLUTEN","name":"Gluten","description":"Refers to the presense of other gluten containing grain and gluten containing grain products as listed in the regulations specified in AllergenSpecificationAgency and AllergenSpecificationName.","sameAs":"","supersededBy":{"@id":"http://gs1.org/voc/AllergenTypeCode"}},
+{"@type":"Class","@id":"http://gs1.org/voc/AllergenTypeCode-WHEAT","name":"Wheat and Their Derivatives","description":"Refers to the presence of wheat and their derivatives in the product, as listed in the regulations specified in AllergenSpecificationAgency and AllergenSpecificationName","sameAs":"","supersededBy":{"@id":"http://gs1.org/voc/AllergenTypeCode"}},
+{"@type":"Class","@id":"http://gs1.org/voc/GrowingMethodCode","name":"Growing Method Code","description":"","sameAs":"","supersededBy":{"@id":"http://gs1.org/voc/TypeCode"}},
+{"@type":"Class","@id":"http://gs1.org/voc/GrowingMethodCode-FIELD_GROWN","name":"Field Grown","description":"Plants Grown Outdoors","sameAs":"","supersededBy":{"@id":"http://gs1.org/voc/GrowingMethodCode"}}
+]
+}
+</script>

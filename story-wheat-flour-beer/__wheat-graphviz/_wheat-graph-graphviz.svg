@@ -1,0 +1,470 @@
+<svg width="100%" height="100%" viewBox="0.00 0.00 1525.98 576.80" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 572.8)">
+<title>%0</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-572.8 1521.9846,-572.8 1521.9846,4 -4,4"/>
+<!-- N12 -->
+<g id="node1" class="node">
+<title>N12</title>
+<polygon fill="none" stroke="#000000" points="1011.8949,-568.8 872.9887,-568.8 872.9887,-532.8 1011.8949,-532.8 1011.8949,-568.8"/>
+<text text-anchor="middle" x="942.4418" y="-546.6" font-family="Times,serif" font-size="14.00" fill="#000000">allergic reaction:3763</text>
+</g>
+<!-- N21 -->
+<g id="node10" class="node">
+<title>N21</title>
+<polygon fill="#ffff00" stroke="#ffff00" points="943.4901,-480 863.3935,-480 863.3935,-444 943.4901,-444 943.4901,-480"/>
+<text text-anchor="middle" x="903.4418" y="-457.8" font-family="Times,serif" font-size="14.00" fill="#000000">flours:2988</text>
+</g>
+<!-- N12&#45;&gt;N21 -->
+<g id="edge13" class="edge">
+<title>N12-&gt;N21</title>
+<path fill="none" stroke="#000000" d="M935.1133,-532.6279C930.9297,-522.4047 925.5209,-509.4353 920.4418,-498 919.1915,-495.1851 917.8614,-492.2593 916.5171,-489.3466"/>
+<polygon fill="#000000" stroke="#000000" points="919.6636,-487.8126 912.2552,-480.2385 913.3234,-490.7794 919.6636,-487.8126"/>
+<text text-anchor="middle" x="960.8829" y="-502.2" font-family="Times,serif" font-size="14.00" fill="#000000">isCausedBy</text>
+</g>
+<!-- N35 -->
+<g id="node24" class="node">
+<title>N35</title>
+<polygon fill="#ffff00" stroke="#ffff00" points="1242.7977,-480 1016.0859,-480 1016.0859,-444 1242.7977,-444 1242.7977,-480"/>
+<text text-anchor="middle" x="1129.4418" y="-457.8" font-family="Times,serif" font-size="14.00" fill="#000000">wheat hypersensitivity:N0000011146</text>
+</g>
+<!-- N12&#45;&gt;N35 -->
+<g id="edge14" class="edge">
+<title>N12-&gt;N35</title>
+<path fill="none" stroke="#000000" d="M979.2409,-532.7976C1000.3639,-522.5139 1027.4114,-509.43 1051.575,-498 1060.9613,-493.56 1071.0104,-488.8683 1080.6651,-484.3913"/>
+<polygon fill="#000000" stroke="#000000" points="1082.1606,-487.5559 1089.7662,-480.18 1079.2209,-481.2031 1082.1606,-487.5559"/>
+<text text-anchor="middle" x="1089.3752" y="-502.2" font-family="Times,serif" font-size="14.00" fill="#000000">ndfrt:induces</text>
+</g>
+<!-- N13 -->
+<g id="node2" class="node">
+<title>N13</title>
+<polygon fill="none" stroke="#000000" points="209.0246,-213.6 105.859,-213.6 105.859,-177.6 209.0246,-177.6 209.0246,-213.6"/>
+<text text-anchor="middle" x="157.4418" y="-191.4" font-family="Times,serif" font-size="14.00" fill="#000000">Atrazine:31256</text>
+</g>
+<!-- N16 -->
+<g id="node5" class="node">
+<title>N16</title>
+<polygon fill="none" stroke="#000000" points="375.8073,-302.4 265.0763,-302.4 265.0763,-266.4 375.8073,-266.4 375.8073,-302.4"/>
+<text text-anchor="middle" x="320.4418" y="-280.2" font-family="Times,serif" font-size="14.00" fill="#000000">chemicals:49870</text>
+</g>
+<!-- N13&#45;&gt;N16 -->
+<g id="edge4" class="edge">
+<title>N13-&gt;N16</title>
+<path fill="none" stroke="#000000" d="M152.3444,-213.7204C150.3545,-224.9459 150.1426,-238.9704 158.0154,-248.4 185.1166,-280.8603 210.2001,-257.0581 251.4418,-266.4 252.5285,-266.6462 253.624,-266.8972 254.7265,-267.1526"/>
+<polygon fill="#000000" stroke="#000000" points="254.243,-270.6354 264.782,-269.5492 255.8659,-263.8261 254.243,-270.6354"/>
+<text text-anchor="middle" x="182.155" y="-235.8" font-family="Times,serif" font-size="14.00" fill="#000000">hasType</text>
+</g>
+<!-- N14 -->
+<g id="node3" class="node">
+<title>N14</title>
+<polygon fill="#ffff00" stroke="#ffff00" points="536.0414,-124.8 432.8422,-124.8 432.8422,-88.8 536.0414,-88.8 536.0414,-124.8"/>
+<text text-anchor="middle" x="484.4418" y="-102.6" font-family="Times,serif" font-size="14.00" fill="#000000">bioassay:15731</text>
+</g>
+<!-- N28 -->
+<g id="node17" class="node">
+<title>N28</title>
+<polygon fill="#ffff00" stroke="#ffff00" points="450.5218,-36 326.3618,-36 326.3618,0 450.5218,0 450.5218,-36"/>
+<text text-anchor="middle" x="388.4418" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">Measurement:4668</text>
+</g>
+<!-- N14&#45;&gt;N28 -->
+<g id="edge40" class="edge">
+<title>N14-&gt;N28</title>
+<path fill="none" stroke="#000000" d="M432.7462,-99.6219C399.1387,-93.7753 359.7092,-84.2716 349.3576,-70.8 342.5172,-61.8979 346.7163,-52.0351 354.4763,-43.2666"/>
+<polygon fill="#000000" stroke="#000000" points="356.9859,-45.7076 361.6682,-36.2036 352.081,-40.7134 356.9859,-45.7076"/>
+<text text-anchor="middle" x="382.4839" y="-58.2" font-family="Times,serif" font-size="14.00" fill="#000000">hasMember</text>
+</g>
+<!-- N31 -->
+<g id="node20" class="node">
+<title>N31</title>
+<polygon fill="#ffff00" stroke="#ffff00" points="634.2563,-36 482.6273,-36 482.6273,0 634.2563,0 634.2563,-36"/>
+<text text-anchor="middle" x="558.4418" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#000000">pubchem:CID_6326970</text>
+</g>
+<!-- N14&#45;&gt;N31 -->
+<g id="edge42" class="edge">
+<title>N14-&gt;N31</title>
+<path fill="none" stroke="#000000" d="M499.7746,-88.4006C510.462,-75.5757 524.8733,-58.2822 536.7378,-44.0448"/>
+<polygon fill="#000000" stroke="#000000" points="539.6687,-45.9949 543.3818,-36.072 534.2911,-41.5136 539.6687,-45.9949"/>
+<text text-anchor="middle" x="543.6094" y="-58.2" font-family="Times,serif" font-size="14.00" fill="#000000">study</text>
+</g>
+<!-- N32 -->
+<g id="node21" class="node">
+<title>N32</title>
+<polygon fill="none" stroke="#000000" points="451.879,-213.6 353.0046,-213.6 353.0046,-177.6 451.879,-177.6 451.879,-213.6"/>
+<text text-anchor="middle" x="402.4418" y="-191.4" font-family="Times,serif" font-size="14.00" fill="#000000">selenium:6953</text>
+</g>
+<!-- N14&#45;&gt;N32 -->
+<g id="edge39" class="edge">
+<title>N14-&gt;N32</title>
+<path fill="none" stroke="#000000" d="M432.5708,-118.0176C419.78,-123.3579 407.5666,-131.2237 399.9144,-142.8 395.1653,-149.9844 394.2377,-158.9968 394.968,-167.5315"/>
+<polygon fill="#000000" stroke="#000000" points="391.5317,-168.2113 396.5356,-177.55 398.4475,-167.1291 391.5317,-168.2113"/>
+<text text-anchor="middle" x="436.2055" y="-147" font-family="Times,serif" font-size="14.00" fill="#000000">isMemberOf</text>
+</g>
+<!-- N15 -->
+<g id="node4" class="node">
+<title>N15</title>
+<polygon fill="#ffff00" stroke="#ffff00" points="1079.9222,-391.2 1000.9614,-391.2 1000.9614,-355.2 1079.9222,-355.2 1079.9222,-391.2"/>
+<text text-anchor="middle" x="1040.4418" y="-369" font-family="Times,serif" font-size="14.00" fill="#000000">bread:1071</text>
+</g>
+<!-- N15&#45;&gt;N21 -->
+<g id="edge18" class="edge">
+<title>N15-&gt;N21</title>
+<path fill="none" stroke="#000000" d="M1031.8631,-391.3027C1025.6609,-402.6651 1016.298,-416.8479 1004.4418,-426 989.66,-437.4104 970.9548,-445.4062 953.6705,-450.9113"/>
+<polygon fill="#000000" stroke="#000000" points="952.2886,-447.6704 943.6983,-453.8718 954.2809,-454.381 952.2886,-447.6704"/>
+<text text-anchor="middle" x="1056.2132" y="-413.4" font-family="Times,serif" font-size="14.00" fill="#000000">isMadeFrom</text>
+</g>
+<!-- N22 -->
+<g id="node11" class="node">
+<title>N22</title>
+<polygon fill="none" stroke="#000000" points="1041.9944,-302.4 968.8892,-302.4 968.8892,-266.4 1041.9944,-266.4 1041.9944,-302.4"/>
+<text text-anchor="middle" x="1005.4418" y="-280.2" font-family="Times,serif" font-size="14.00" fill="#000000">food:3032</text>
+</g>
+<!-- N15&#45;&gt;N22 -->
+<g id="edge23" class="edge">
+<title>N15-&gt;N22</title>
+<path fill="none" stroke="#000000" d="M1000.7546,-363.2119C977.4961,-356.467 951.3776,-347.0289 944.5694,-337.2 935.846,-324.6063 945.7244,-313.1254 959.8863,-304.1097"/>
+<polygon fill="#000000" stroke="#000000" points="961.6845,-307.1132 968.6114,-299.0965 958.1971,-301.0437 961.6845,-307.1132"/>
+<text text-anchor="middle" x="964.878" y="-324.6" font-family="Times,serif" font-size="14.00" fill="#000000">typeOf</text>
+</g>
+<!-- N26 -->
+<g id="node15" class="node">
+<title>N26</title>
+<polygon fill="#ffff00" stroke="#ffff00" points="1198.1525,-302.4 1126.7311,-302.4 1126.7311,-266.4 1198.1525,-266.4 1198.1525,-302.4"/>
+<text text-anchor="middle" x="1162.4418" y="-280.2" font-family="Times,serif" font-size="14.00" fill="#000000">heat:3519</text>
+</g>
+<!-- N15&#45;&gt;N26 -->
+<g id="edge21" class="edge">
+<title>N15-&gt;N26</title>
+<path fill="none" stroke="#000000" d="M1049.1825,-355.0501C1055.3645,-343.8129 1064.5816,-329.7863 1076.0434,-320.4 1087.9947,-310.6128 1102.9837,-303.1302 1117.1064,-297.5903"/>
+<polygon fill="#000000" stroke="#000000" points="1118.5213,-300.7991 1126.6972,-294.0608 1116.1037,-294.2298 1118.5213,-300.7991"/>
+<text text-anchor="middle" x="1142.141" y="-324.6" font-family="Times,serif" font-size="14.00" fill="#000000">isAchievedByMeansOf</text>
+</g>
+<!-- N34 -->
+<g id="node23" class="node">
+<title>N34</title>
+<polygon fill="#ffff00" stroke="#ffff00" points="1448.9194,-302.4 1369.9642,-302.4 1369.9642,-266.4 1448.9194,-266.4 1448.9194,-302.4"/>
+<text text-anchor="middle" x="1409.4418" y="-280.2" font-family="Times,serif" font-size="14.00" fill="#000000">water:8309</text>
+</g>
+<!-- N15&#45;&gt;N34 -->
+<g id="edge19" class="edge">
+<title>N15-&gt;N34</title>
+<path fill="none" stroke="#000000" d="M1080.0059,-361.9698C1090.1813,-359.4131 1101.1607,-356.9407 1111.4418,-355.2 1202.0565,-339.8576 1229.7539,-364.7182 1317.4418,-337.2 1338.2399,-330.6731 1359.4736,-318.894 1376.2936,-308.1149"/>
+<polygon fill="#000000" stroke="#000000" points="1378.2361,-311.0265 1384.6614,-302.6024 1374.3852,-305.1809 1378.2361,-311.0265"/>
+<text text-anchor="middle" x="1397.2055" y="-324.6" font-family="Times,serif" font-size="14.00" fill="#000000">isUsedToMake</text>
+</g>
+<!-- N16&#45;&gt;N13 -->
+<g id="edge5" class="edge">
+<title>N16-&gt;N13</title>
+<path fill="none" stroke="#000000" d="M283.8397,-266.2504C272.7687,-260.642 260.6193,-254.368 249.5694,-248.4 232.1882,-239.0126 213.2163,-228.2329 197.0307,-218.8713"/>
+<polygon fill="#000000" stroke="#000000" points="198.7588,-215.8275 188.3531,-213.8341 195.2445,-221.8814 198.7588,-215.8275"/>
+<text text-anchor="middle" x="269.878" y="-235.8" font-family="Times,serif" font-size="14.00" fill="#000000">typeOf</text>
+</g>
+<!-- N16&#45;&gt;N32 -->
+<g id="edge35" class="edge">
+<title>N16-&gt;N32</title>
+<path fill="none" stroke="#000000" d="M302.024,-265.9281C293.7658,-255.3709 287.4092,-242.1709 295.0154,-231.6 301.2918,-222.8772 321.7808,-215.0423 343.2065,-208.9263"/>
+<polygon fill="#000000" stroke="#000000" points="344.3402,-212.2451 353.069,-206.2402 342.5007,-205.4911 344.3402,-212.2451"/>
+<text text-anchor="middle" x="319.155" y="-235.8" font-family="Times,serif" font-size="14.00" fill="#000000">hasType</text>
+</g>
+<!-- N37 -->
+<g id="node26" class="node">
+<title>N37</title>
+<polygon fill="#ffff00" stroke="#ffff00" points="581.5225,-391.2 461.3611,-391.2 461.3611,-355.2 581.5225,-355.2 581.5225,-391.2"/>
+<text text-anchor="middle" x="521.4418" y="-369" font-family="Times,serif" font-size="14.00" fill="#000000">winter wheat:8412</text>
+</g>
+<!-- N16&#45;&gt;N37 -->
+<g id="edge7" class="edge">
+<title>N16-&gt;N37</title>
+<path fill="none" stroke="#000000" d="M375.927,-300.0444C392.2871,-305.5481 409.9484,-312.393 425.4418,-320.4 436.7992,-326.2695 437.838,-330.6065 448.791,-337.2 456.4142,-341.7891 464.7022,-346.3068 472.8619,-350.5085"/>
+<polygon fill="#000000" stroke="#000000" points="471.4728,-353.7278 481.9778,-355.1052 474.6246,-347.4775 471.4728,-353.7278"/>
+<text text-anchor="middle" x="472.7672" y="-324.6" font-family="Times,serif" font-size="14.00" fill="#000000">isPartOf</text>
+</g>
+<!-- N17 -->
+<g id="node6" class="node">
+<title>N17</title>
+<polygon fill="#ffff00" stroke="#ffff00" points="846.6299,-302.4 726.2537,-302.4 726.2537,-266.4 846.6299,-266.4 846.6299,-302.4"/>
+<text text-anchor="middle" x="786.4418" y="-280.2" font-family="Times,serif" font-size="14.00" fill="#000000">dbp:Winter_wheat</text>
+</g>
+<!-- N18 -->
+<g id="node7" class="node">
+<title>N18</title>
+<polygon fill="none" stroke="#000000" points="1302.418,-568.8 1188.4656,-568.8 1188.4656,-532.8 1302.418,-532.8 1302.418,-568.8"/>
+<text text-anchor="middle" x="1245.4418" y="-546.6" font-family="Times,serif" font-size="14.00" fill="#000000">diphenhydramine</text>
+</g>
+<!-- N18&#45;&gt;N35 -->
+<g id="edge15" class="edge">
+<title>N18-&gt;N35</title>
+<path fill="none" stroke="#000000" d="M1240.5786,-532.5846C1236.7461,-521.3212 1230.3614,-507.2902 1220.4418,-498 1215.0708,-492.9697 1208.9123,-488.6111 1202.3866,-484.8408"/>
+<polygon fill="#000000" stroke="#000000" points="1203.7788,-481.6184 1193.2997,-480.0564 1200.5176,-487.8123 1203.7788,-481.6184"/>
+<text text-anchor="middle" x="1275.9811" y="-502.2" font-family="Times,serif" font-size="14.00" fill="#000000">ndfrt:may_treat</text>
+</g>
+<!-- N19 -->
+<g id="node8" class="node">
+<title>N19</title>
+<polygon fill="#ffff00" stroke="#ffff00" points="1170.5274,-568.8 1088.3562,-568.8 1088.3562,-532.8 1170.5274,-532.8 1170.5274,-568.8"/>
+<text text-anchor="middle" x="1129.4418" y="-546.6" font-family="Times,serif" font-size="14.00" fill="#000000">epinephrine</text>
+</g>
+<!-- N19&#45;&gt;N35 -->
+<g id="edge16" class="edge">
+<title>N19-&gt;N35</title>
+<path fill="none" stroke="#000000" d="M1129.4418,-532.4006C1129.4418,-520.2949 1129.4418,-504.2076 1129.4418,-490.4674"/>
+<polygon fill="#000000" stroke="#000000" points="1132.9419,-490.072 1129.4418,-480.072 1125.9419,-490.0721 1132.9419,-490.072"/>
+<text text-anchor="middle" x="1172.9811" y="-502.2" font-family="Times,serif" font-size="14.00" fill="#000000">ndfrt:may_treat</text>
+</g>
+<!-- N20 -->
+<g id="node9" class="node">
+<title>N20</title>
+<polygon fill="#ffff00" stroke="#ffff00" points="1404.8805,-568.8 1320.0031,-568.8 1320.0031,-532.8 1404.8805,-532.8 1404.8805,-568.8"/>
+<text text-anchor="middle" x="1362.4418" y="-546.6" font-family="Times,serif" font-size="14.00" fill="#000000">Finley, J.W.</text>
+</g>
+<!-- N21&#45;&gt;N12 -->
+<g id="edge12" class="edge">
+<title>N21-&gt;N12</title>
+<path fill="none" stroke="#000000" d="M889.0973,-480.2098C882.688,-490.6797 877.8048,-503.8797 883.9088,-514.8 886.2935,-519.0664 889.4141,-522.8892 892.9738,-526.3012"/>
+<polygon fill="#000000" stroke="#000000" points="890.8555,-529.0906 900.8026,-532.7383 895.3012,-523.6836 890.8555,-529.0906"/>
+<text text-anchor="middle" x="902.7083" y="-502.2" font-family="Times,serif" font-size="14.00" fill="#000000">causes</text>
+</g>
+<!-- N21&#45;&gt;N15 -->
+<g id="edge17" class="edge">
+<title>N21-&gt;N15</title>
+<path fill="none" stroke="#000000" d="M904.4418,-443.8837C906.0045,-432.5156 909.8094,-418.3318 918.9144,-409.2 929.3033,-398.7806 962.0021,-389.423 990.8667,-382.8613"/>
+<polygon fill="#000000" stroke="#000000" points="991.8593,-386.2267 1000.8737,-380.6598 990.3552,-379.3902 991.8593,-386.2267"/>
+<text text-anchor="middle" x="962.2055" y="-413.4" font-family="Times,serif" font-size="14.00" fill="#000000">isUsedToMake</text>
+</g>
+<!-- N21&#45;&gt;N37 -->
+<g id="edge11" class="edge">
+<title>N21-&gt;N37</title>
+<path fill="none" stroke="#000000" d="M863.2735,-460.0786C790.1554,-456.1403 638.378,-445.8087 589.6858,-426 574.0149,-419.6248 558.8889,-408.5985 546.8769,-398.2656"/>
+<polygon fill="#000000" stroke="#000000" points="548.8734,-395.355 539.09,-391.2885 544.2021,-400.5684 548.8734,-395.355"/>
+<text text-anchor="middle" x="632.8198" y="-413.4" font-family="Times,serif" font-size="14.00" fill="#000000">isDerivedFrom</text>
+</g>
+<!-- N22&#45;&gt;N15 -->
+<g id="edge24" class="edge">
+<title>N22-&gt;N15</title>
+<path fill="none" stroke="#000000" d="M1002.4075,-302.6502C1001.4439,-313.1336 1001.5873,-326.3336 1006.0154,-337.2 1007.4371,-340.6887 1009.3717,-344.0324 1011.6037,-347.1797"/>
+<polygon fill="#000000" stroke="#000000" points="1008.9986,-349.5221 1018.0579,-355.0158 1014.4019,-345.0717 1008.9986,-349.5221"/>
+<text text-anchor="middle" x="1030.155" y="-324.6" font-family="Times,serif" font-size="14.00" fill="#000000">hasType</text>
+</g>
+<!-- N23 -->
+<g id="node12" class="node">
+<title>N23</title>
+<polygon fill="none" stroke="#000000" points="678.4334,-124.8 592.4502,-124.8 592.4502,-88.8 678.4334,-88.8 678.4334,-124.8"/>
+<text text-anchor="middle" x="635.4418" y="-102.6" font-family="Times,serif" font-size="14.00" fill="#000000">gene:FTC_2</text>
+</g>
+<!-- N24 -->
+<g id="node13" class="node">
+<title>N24</title>
+<polygon fill="#ffff00" stroke="#ffff00" points="340.4334,-124.8 254.4502,-124.8 254.4502,-88.8 340.4334,-88.8 340.4334,-124.8"/>
+<text text-anchor="middle" x="297.4418" y="-102.6" font-family="Times,serif" font-size="14.00" fill="#000000">gene:FTC_1</text>
+</g>
+<!-- N25 -->
+<g id="node14" class="node">
+<title>N25</title>
+<polygon fill="#ffff00" stroke="#ffff00" points="685.719,-213.6 585.1646,-213.6 585.1646,-177.6 685.719,-177.6 685.719,-213.6"/>
+<text text-anchor="middle" x="635.4418" y="-191.4" font-family="Times,serif" font-size="14.00" fill="#000000">glutenin:24033</text>
+</g>
+<!-- N25&#45;&gt;N23 -->
+<g id="edge30" class="edge">
+<title>N25-&gt;N23</title>
+<path fill="none" stroke="#000000" d="M635.4418,-177.2006C635.4418,-165.0949 635.4418,-149.0076 635.4418,-135.2674"/>
+<polygon fill="#000000" stroke="#000000" points="638.9419,-134.872 635.4418,-124.872 631.9419,-134.8721 638.9419,-134.872"/>
+<text text-anchor="middle" x="676.6508" y="-147" font-family="Times,serif" font-size="14.00" fill="#000000">bio2rdf:targets</text>
+</g>
+<!-- N30 -->
+<g id="node19" class="node">
+<title>N30</title>
+<polygon fill="#ffff00" stroke="#ffff00" points="707.9334,-302.4 614.9502,-302.4 614.9502,-266.4 707.9334,-266.4 707.9334,-302.4"/>
+<text text-anchor="middle" x="661.4418" y="-280.2" font-family="Times,serif" font-size="14.00" fill="#000000">proteins:6295</text>
+</g>
+<!-- N25&#45;&gt;N30 -->
+<g id="edge29" class="edge">
+<title>N25-&gt;N30</title>
+<path fill="none" stroke="#000000" d="M653.1616,-213.6206C657.3469,-218.9831 661.2319,-225.1592 663.4418,-231.6 666.0914,-239.3223 666.6569,-248.0568 666.2673,-256.1665"/>
+<polygon fill="#000000" stroke="#000000" points="662.7633,-256.0429 665.2998,-266.3297 669.7318,-256.7064 662.7633,-256.0429"/>
+<text text-anchor="middle" x="690.155" y="-235.8" font-family="Times,serif" font-size="14.00" fill="#000000">hasType</text>
+</g>
+<!-- N26&#45;&gt;N15 -->
+<g id="edge22" class="edge">
+<title>N26-&gt;N15</title>
+<path fill="none" stroke="#000000" d="M1193.2858,-302.627C1206.5531,-312.7548 1217.0566,-325.6148 1207.4418,-337.2 1193.5801,-353.9023 1132.6387,-350.5307 1111.4418,-355.2 1104.4408,-356.7422 1097.0801,-358.4781 1089.8577,-360.2475"/>
+<polygon fill="#000000" stroke="#000000" points="1088.9998,-356.8542 1080.1414,-362.6662 1090.6908,-363.6469 1088.9998,-356.8542"/>
+<text text-anchor="middle" x="1262.1417" y="-324.6" font-family="Times,serif" font-size="14.00" fill="#000000">hasGoalOrProcess</text>
+</g>
+<!-- N27 -->
+<g id="node16" class="node">
+<title>N27</title>
+<polygon fill="none" stroke="#000000" points="1226.3747,-391.2 1120.5089,-391.2 1120.5089,-355.2 1226.3747,-355.2 1226.3747,-391.2"/>
+<text text-anchor="middle" x="1173.4418" y="-369" font-family="Times,serif" font-size="14.00" fill="#000000">hypersensitivity</text>
+</g>
+<!-- N27&#45;&gt;N35 -->
+<g id="edge37" class="edge">
+<title>N27-&gt;N35</title>
+<path fill="none" stroke="#000000" d="M1173.926,-391.6673C1173.5041,-402.2231 1171.7541,-415.4231 1166.4418,-426 1164.6379,-429.5915 1162.3307,-433.0295 1159.7518,-436.2574"/>
+<polygon fill="#000000" stroke="#000000" points="1157.0267,-434.0526 1152.9136,-443.8165 1162.2178,-438.7486 1157.0267,-434.0526"/>
+<text text-anchor="middle" x="1195.155" y="-413.4" font-family="Times,serif" font-size="14.00" fill="#000000">hasType</text>
+</g>
+<!-- N28&#45;&gt;N14 -->
+<g id="edge41" class="edge">
+<title>N28-&gt;N14</title>
+<path fill="none" stroke="#000000" d="M405.0944,-36.1222C414.9347,-46.563 427.8028,-59.763 439.9144,-70.8 444.0475,-74.5664 448.514,-78.4157 452.968,-82.1296"/>
+<polygon fill="#000000" stroke="#000000" points="450.942,-84.9944 460.8967,-88.6214 455.3766,-79.5782 450.942,-84.9944"/>
+<text text-anchor="middle" x="476.2055" y="-58.2" font-family="Times,serif" font-size="14.00" fill="#000000">isMemberOf</text>
+</g>
+<!-- N29 -->
+<g id="node18" class="node">
+<title>N29</title>
+<polygon fill="none" stroke="#000000" points="242.9175,-302.4 117.9661,-302.4 117.9661,-266.4 242.9175,-266.4 242.9175,-302.4"/>
+<text text-anchor="middle" x="180.4418" y="-280.2" font-family="Times,serif" font-size="14.00" fill="#000000">North Dakota:5223</text>
+</g>
+<!-- N29&#45;&gt;N37 -->
+<g id="edge27" class="edge">
+<title>N29-&gt;N37</title>
+<path fill="none" stroke="#000000" d="M197.791,-302.4078C211.2943,-315.9892 229.2265,-332.9766 238.3674,-337.2 275.0164,-354.1332 379.7391,-364.0971 451.0011,-369.1022"/>
+<polygon fill="#000000" stroke="#000000" points="451.0445,-372.6133 461.2603,-369.8049 451.5229,-365.6296 451.0445,-372.6133"/>
+<text text-anchor="middle" x="299.479" y="-324.6" font-family="Times,serif" font-size="14.00" fill="#000000">isSpaciallyIncludedIn</text>
+</g>
+<!-- N30&#45;&gt;N25 -->
+<g id="edge28" class="edge">
+<title>N30-&gt;N25</title>
+<path fill="none" stroke="#000000" d="M637.0612,-266.1024C631.9906,-260.985 627.3479,-254.9959 624.5694,-248.4 621.2632,-240.5513 621.6813,-231.6108 623.5937,-223.3465"/>
+<polygon fill="#000000" stroke="#000000" points="626.9602,-224.3056 626.5177,-213.72 620.2624,-222.2711 626.9602,-224.3056"/>
+<text text-anchor="middle" x="644.878" y="-235.8" font-family="Times,serif" font-size="14.00" fill="#000000">typeOf</text>
+</g>
+<!-- N30&#45;&gt;N37 -->
+<g id="edge9" class="edge">
+<title>N30-&gt;N37</title>
+<path fill="none" stroke="#000000" d="M655.4215,-302.6054C650.7908,-314.0101 643.3211,-328.2012 632.4418,-337.2 620.5965,-346.9978 606.0214,-354.1502 591.3753,-359.3646"/>
+<polygon fill="#000000" stroke="#000000" points="590.1771,-356.0741 581.7684,-362.5197 592.3613,-362.7246 590.1771,-356.0741"/>
+<text text-anchor="middle" x="669.7672" y="-324.6" font-family="Times,serif" font-size="14.00" fill="#000000">isPartOf</text>
+</g>
+<!-- N31&#45;&gt;N14 -->
+<g id="edge43" class="edge">
+<title>N31-&gt;N14</title>
+<path fill="none" stroke="#000000" d="M565.0758,-36.4654C567.7506,-47.275 568.8827,-60.7334 562.4418,-70.8 558.0334,-77.69 551.9339,-83.2801 545.0703,-87.811"/>
+<polygon fill="#000000" stroke="#000000" points="542.9639,-84.9847 536.0375,-93.0019 546.4518,-91.0539 542.9639,-84.9847"/>
+<text text-anchor="middle" x="601.6669" y="-58.2" font-family="Times,serif" font-size="14.00" fill="#000000">isStudiedBy</text>
+</g>
+<!-- N32&#45;&gt;N14 -->
+<g id="edge38" class="edge">
+<title>N32-&gt;N14</title>
+<path fill="none" stroke="#000000" d="M451.9407,-179.1818C460.9245,-174.1723 469.3598,-167.7562 475.4418,-159.6 480.6583,-152.6044 483.2598,-143.6425 484.4624,-135.0959"/>
+<polygon fill="#000000" stroke="#000000" points="487.9577,-135.2975 485.3173,-125.037 480.9829,-134.7046 487.9577,-135.2975"/>
+<text text-anchor="middle" x="516.4839" y="-147" font-family="Times,serif" font-size="14.00" fill="#000000">hasMember</text>
+</g>
+<!-- N32&#45;&gt;N16 -->
+<g id="edge34" class="edge">
+<title>N32-&gt;N16</title>
+<path fill="none" stroke="#000000" d="M379.4829,-213.8268C373.1075,-219.2841 366.3524,-225.4575 360.5694,-231.6 352.9928,-239.6476 345.4557,-249.0844 338.9939,-257.737"/>
+<polygon fill="#000000" stroke="#000000" points="335.9968,-255.9066 332.929,-266.0476 341.6512,-260.0331 335.9968,-255.9066"/>
+<text text-anchor="middle" x="380.878" y="-235.8" font-family="Times,serif" font-size="14.00" fill="#000000">typeOf</text>
+</g>
+<!-- N32&#45;&gt;N24 -->
+<g id="edge44" class="edge">
+<title>N32-&gt;N24</title>
+<path fill="none" stroke="#000000" d="M352.7783,-186.3184C336.7432,-180.9971 320.2329,-172.6554 309.0238,-159.6 303.1359,-152.7423 300.039,-143.5712 298.4663,-134.798"/>
+<polygon fill="#000000" stroke="#000000" points="301.9369,-134.3434 297.2445,-124.8444 294.9891,-135.1963 301.9369,-134.3434"/>
+<text text-anchor="middle" x="350.6508" y="-147" font-family="Times,serif" font-size="14.00" fill="#000000">bio2rdf:targets</text>
+</g>
+<!-- N32&#45;&gt;N37 -->
+<g id="edge33" class="edge">
+<title>N32-&gt;N37</title>
+<path fill="none" stroke="#000000" d="M401.8827,-214.042C401.4654,-241.1074 402.378,-289.7515 413.6858,-302.4 438.4834,-330.1378 466.1629,-297.4425 495.4418,-320.4 503.6176,-326.8106 509.4004,-336.4584 513.4014,-345.7605"/>
+<polygon fill="#000000" stroke="#000000" points="510.1493,-347.0561 516.9515,-355.1789 516.6995,-344.5871 510.1493,-347.0561"/>
+<text text-anchor="middle" x="456.8198" y="-280.2" font-family="Times,serif" font-size="14.00" fill="#000000">isDerivedFrom</text>
+</g>
+<!-- N33 -->
+<g id="node22" class="node">
+<title>N33</title>
+<polygon fill="#ffff00" stroke="#ffff00" points="96.8255,-302.4 .0581,-302.4 .0581,-266.4 96.8255,-266.4 96.8255,-302.4"/>
+<text text-anchor="middle" x="48.4418" y="-280.2" font-family="Times,serif" font-size="14.00" fill="#000000">Senicio:14198</text>
+</g>
+<!-- N33&#45;&gt;N13 -->
+<g id="edge3" class="edge">
+<title>N33-&gt;N13</title>
+<path fill="none" stroke="#000000" d="M44.0588,-266.0831C42.5222,-255.0604 42.6812,-241.3265 49.8864,-231.6 56.0588,-223.2678 75.3568,-215.6983 95.9358,-209.6741"/>
+<polygon fill="#000000" stroke="#000000" points="97.0717,-212.991 105.7625,-206.9314 95.1897,-206.2487 97.0717,-212.991"/>
+<text text-anchor="middle" x="93.2195" y="-235.8" font-family="Times,serif" font-size="14.00" fill="#000000">isControlledBy</text>
+</g>
+<!-- N33&#45;&gt;N37 -->
+<g id="edge1" class="edge">
+<title>N33-&gt;N37</title>
+<path fill="none" stroke="#000000" d="M52.3772,-302.6558C55.9526,-314.5432 62.5082,-329.2665 74.1248,-337.2 104.4449,-357.907 332.6536,-367.6384 450.8799,-371.3304"/>
+<polygon fill="#000000" stroke="#000000" points="450.827,-374.8303 460.9294,-371.638 451.0412,-367.8336 450.827,-374.8303"/>
+<text text-anchor="middle" x="93.1003" y="-324.6" font-family="Times,serif" font-size="14.00" fill="#000000">pestOf</text>
+</g>
+<!-- N34&#45;&gt;N15 -->
+<g id="edge20" class="edge">
+<title>N34-&gt;N15</title>
+<path fill="none" stroke="#000000" d="M1432.3267,-302.5182C1443.3099,-313.3335 1452.1793,-326.9185 1442.4418,-337.2 1417.1145,-363.942 1147.8531,-349.6482 1111.4418,-355.2 1104.3549,-356.2806 1096.9461,-357.7581 1089.701,-359.4054"/>
+<polygon fill="#000000" stroke="#000000" points="1088.8784,-356.0034 1079.9682,-361.7356 1090.5083,-362.811 1088.8784,-356.0034"/>
+<text text-anchor="middle" x="1482.2132" y="-324.6" font-family="Times,serif" font-size="14.00" fill="#000000">isMadeFrom</text>
+</g>
+<!-- N35&#45;&gt;N27 -->
+<g id="edge36" class="edge">
+<title>N35-&gt;N27</title>
+<path fill="none" stroke="#000000" d="M1124.6541,-443.5185C1122.9022,-432.9581 1122.4341,-419.7581 1127.5694,-409.2 1129.4624,-405.3081 1132.0023,-401.7121 1134.9204,-398.4218"/>
+<polygon fill="#000000" stroke="#000000" points="1137.5286,-400.7687 1142.289,-391.3035 1132.6651,-395.7341 1137.5286,-400.7687"/>
+<text text-anchor="middle" x="1147.878" y="-413.4" font-family="Times,serif" font-size="14.00" fill="#000000">typeOf</text>
+</g>
+<!-- N36 -->
+<g id="node25" class="node">
+<title>N36</title>
+<polygon fill="none" stroke="#000000" points="950.7037,-302.4 864.1799,-302.4 864.1799,-266.4 950.7037,-266.4 950.7037,-302.4"/>
+<text text-anchor="middle" x="907.4418" y="-280.2" font-family="Times,serif" font-size="14.00" fill="#000000">wheats:8373</text>
+</g>
+<!-- N37&#45;&gt;N16 -->
+<g id="edge6" class="edge">
+<title>N37-&gt;N16</title>
+<path fill="none" stroke="#000000" d="M461.3008,-363.3416C436.5379,-357.7977 408.1182,-349.4525 384.2342,-337.2 380.1222,-335.0905 364.0465,-321.7791 349.0631,-309.0511"/>
+<polygon fill="#000000" stroke="#000000" points="351.2758,-306.3382 341.3965,-302.5108 346.7328,-311.6636 351.2758,-306.3382"/>
+<text text-anchor="middle" x="405.0456" y="-324.6" font-family="Times,serif" font-size="14.00" fill="#000000">hasPart</text>
+</g>
+<!-- N37&#45;&gt;N17 -->
+<g id="edge31" class="edge">
+<title>N37-&gt;N17</title>
+<path fill="none" stroke="#000000" d="M581.9192,-365.9246C616.546,-360.5137 660.3478,-351.5279 697.4418,-337.2 716.6729,-329.7718 736.5456,-318.3942 752.6208,-308.1003"/>
+<polygon fill="#000000" stroke="#000000" points="754.6851,-310.9322 761.1325,-302.5249 750.8495,-305.0765 754.6851,-310.9322"/>
+<text text-anchor="middle" x="766.0435" y="-324.6" font-family="Times,serif" font-size="14.00" fill="#000000">owl:sameAs</text>
+</g>
+<!-- N37&#45;&gt;N21 -->
+<g id="edge10" class="edge">
+<title>N37-&gt;N21</title>
+<path fill="none" stroke="#000000" d="M581.6432,-387.1945C656.6521,-404.6311 783.4496,-434.1065 853.3896,-450.3648"/>
+<polygon fill="#000000" stroke="#000000" points="852.7503,-453.8095 863.2831,-452.6647 854.3353,-446.9913 852.7503,-453.8095"/>
+<text text-anchor="middle" x="778.9292" y="-413.4" font-family="Times,serif" font-size="14.00" fill="#000000">isSourceOf</text>
+</g>
+<!-- N37&#45;&gt;N29 -->
+<g id="edge26" class="edge">
+<title>N37-&gt;N29</title>
+<path fill="none" stroke="#000000" d="M461.1928,-372.1936C354.6069,-369.7838 141.8467,-361.9024 119.2566,-337.2 109.8582,-326.9227 116.9458,-316.6775 129.1483,-307.9845"/>
+<polygon fill="#000000" stroke="#000000" points="131.211,-310.8209 137.7838,-302.5113 127.4637,-304.9084 131.211,-310.8209"/>
+<text text-anchor="middle" x="168.0344" y="-324.6" font-family="Times,serif" font-size="14.00" fill="#000000">spaciallyIncludes</text>
+</g>
+<!-- N37&#45;&gt;N30 -->
+<g id="edge8" class="edge">
+<title>N37-&gt;N30</title>
+<path fill="none" stroke="#000000" d="M543.364,-355.0525C556.7711,-344.3557 574.5073,-330.9041 591.2342,-320.4 598.4879,-315.8448 606.3869,-311.3671 614.1831,-307.2007"/>
+<polygon fill="#000000" stroke="#000000" points="616.001,-310.1998 623.2432,-302.4667 612.7593,-303.9957 616.001,-310.1998"/>
+<text text-anchor="middle" x="612.0456" y="-324.6" font-family="Times,serif" font-size="14.00" fill="#000000">hasPart</text>
+</g>
+<!-- N37&#45;&gt;N32 -->
+<g id="edge32" class="edge">
+<title>N37-&gt;N32</title>
+<path fill="none" stroke="#000000" d="M522.8665,-355.0519C523.7055,-332.1412 521.8527,-292.5672 502.4418,-266.4 488.0447,-246.9918 466.7332,-230.8667 447.4791,-218.9328"/>
+<polygon fill="#000000" stroke="#000000" points="449.1883,-215.8768 438.8096,-213.7478 445.5953,-221.8844 449.1883,-215.8768"/>
+<text text-anchor="middle" x="549.9292" y="-280.2" font-family="Times,serif" font-size="14.00" fill="#000000">isSourceOf</text>
+</g>
+<!-- N37&#45;&gt;N33 -->
+<g id="edge2" class="edge">
+<title>N37-&gt;N33</title>
+<path fill="none" stroke="#000000" d="M460.9413,-371.0846C329.7197,-366.2025 29.4678,-353.3218 14.4502,-337.2 6.9032,-329.0982 10.6945,-319.1144 18.0155,-310.0171"/>
+<polygon fill="#000000" stroke="#000000" points="20.6107,-312.3658 24.8239,-302.6447 15.4681,-307.6167 20.6107,-312.3658"/>
+<text text-anchor="middle" x="36.4376" y="-324.6" font-family="Times,serif" font-size="14.00" fill="#000000">hasPest</text>
+</g>
+<!-- N37&#45;&gt;N36 -->
+<g id="edge25" class="edge">
+<title>N37-&gt;N36</title>
+<path fill="none" stroke="#000000" d="M581.5603,-368.0124C651.9668,-361.5064 764.1065,-349.6821 804.4418,-337.2 827.2075,-330.155 850.985,-318.306 869.9512,-307.6159"/>
+<polygon fill="#000000" stroke="#000000" points="871.9335,-310.5132 878.8498,-302.4873 868.438,-304.4484 871.9335,-310.5132"/>
+<text text-anchor="middle" x="865.878" y="-324.6" font-family="Times,serif" font-size="14.00" fill="#000000">typeOf</text>
+</g>
+</g>
+</svg>

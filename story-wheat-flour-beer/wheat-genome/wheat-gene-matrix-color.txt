@@ -1,0 +1,47 @@
+Pairwise Pearson's correlations between 45 phenotypes.
+
+AS, arsenic
+BWT, biomass weight
+CA, calcium
+CD, cadmium
+CO, cobalt
+CU, copper
+FE, iron
+FLA, flag leaf area
+FLL, flag leaf length
+FLW, flag leaf width
+FS, fertile spikelet
+GPS, grain weight per spike
+GVWT, grain volume weight
+GY, grain yield
+HI, harvest index
+K, potassium
+LI, lithium
+LRCI, leaf rust coefficient of infection
+LRIT, leaf rust infection type
+LRS, leaf rust severity
+MG, magnesium
+MN, manganese
+MO, molybdenum
+NI, nickel
+P, phosphorous
+RB, rachis break
+S, sulfur
+SHI, spike harvest index
+SL, spike length
+SN, spikelet number
+SP, sterile spikelet
+SPS, seeds per spike
+SRCIH, steam rust coefficient of infection at Haymana
+SRCIK, stem rust coefficient of infection at Kastamonu
+SRITH, stem rust infection type at Haymana
+SRITK, stem rust infection type at Kastamonu
+SRSH, stem rust severity at Haymana
+SRSK, stem rust severity at Kastamonu
+SW, spike weight
+TI, titanium
+YRCIH, yellow rust coefficient of infection at Haymana
+YRIH, yellow rust infection type at Haymana
+YRSH, yellow rust severity at Haymana
+YRSK, yellow rust severity at Kastamonu
+ZN, zinc

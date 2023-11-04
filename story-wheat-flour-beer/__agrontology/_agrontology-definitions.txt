@@ -1,0 +1,42 @@
+
+other sources:
+Sphinx verbs
+Wikidata properties
+
+
+
+Essive relations
+Indicates existence in a state or capacity. Carries the meaning of a temporary state of being, often equivalent to the English "as a...".
+
+---
+1
+Causative relationship
+All relationships producing an effect or being the effect of something. An expression of an agent causing or forcing a patient to perform an action (or to be in a certain condition). Functioning as an agent or cause.
+
+has sub-properties
+Acts upon, Affects, Benefits from, Causes, Controls, Has Propagation process, Has a related type, Has biological control agent, Has breeding method, Has control method, Has croping system, Has cultivation process, Has disease, Has disorder, Has infection part, Has natural enemy, Has object of activity, Has pathogen, Has pest, Has physiological function, Has practice, Has product, Has property, Has theme, Is a pest of, Is a related type of, Is acted upon by, Is affected by, Is beneficial for, Is biological control agent of, Is breeding method of, Is caused by, Is control method of, Is controlled by, Is croping system of, Is cultivation process of, Is disease for, Is disorder of, Is infected part of, Is natural enemy of, Is object of activity, Is pathogen of, Is performed by, Is physiological function of, Is practice for, Is prevented by, Is produced by, Is propagation process of, Is property of, Is theme of, Performs, Prevents, Produces, Product of op
+
+2
+Instrumental relations
+Indicates all relationships serving or acting as a means or aid. By means of an instrument or an agent. The means whereby some act is accomplished.
+
+3
+Partitive relationship
+For continuants: C part_of C' if and only if: given any c that instantiates C at a time t, there is some c' such that c' instantiates C' at time t, and c *part_of* c' at t. For processes: P part_of P' if and only if: given any p that instantiates P at a time t, there is some p' such that p' instantiates P' at time t, and p *part_of* p' at t. (Here *part_of* is the instance-level part-relation.)
+
+4
+Quantitative relationship
+All relationships involving a quantity or a measure.
+
+5
+Spatial relations
+
+6
+Taxonomic relationship
+Relationships linking concepts which are related in the scientifical sense in a bilogical taxonomy (e.g. species, families, etc.). To relate concepts taxonomically.
+
+7
+Temporal relations
+as sub-properties
+Develops from, Develops into, Follows, precedes
+

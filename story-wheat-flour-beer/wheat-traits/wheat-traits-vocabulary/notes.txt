@@ -1,0 +1,7 @@
+
+RDFa
+
+resolve
+<div class="property-object">CO:rs �AGPG:IBPGR/85/210</div>
+<div class="connector">&nbsp; and</div><span property="oboInOwl:hasDbXref" content="CIMMYT:jp�" datatype="xsd:string"></span><div class="property-object">CIMMYT:jp�</div>
+

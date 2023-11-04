@@ -1,0 +1,44 @@
+
+counterfeit (variation on is-a)
+	https://ktla.com/news/nexstar-media-wire/nationworld/142m-worth-of-corn-soybeans-and-wheat-falsely-labeled-organic-sold-across-u-s/
+
+wheat products: flour types
+	https://www.seriouseats.com/wheat-flour-guide
+
+whole wheat flour v white flour
+	https://getpocket.com/explore/item/why-whole-wheat-is-better-than-white
+	https://www.eater.com/22913142/white-flour-whole-wheat-flour-differences-stone-milled
+
+falling number and wheat genetics
+	https://en.wikipedia.org/wiki/Falling_Number
+	https://www.frontiersin.org/articles/10.3389/fpls.2021.637685/full
+
+selenium in wheat
+	https://phys.org/news/2020-01-high-selenium-wheat-grown-selenium-rich.html
+	https://recipes.howstuffworks.com/is-american-wheat-different-than-european-wheat.htm
+Due to soil and growing conditions, the differences between American and European wheat extend further than gluten content.
+American wheat contains about 10 times more selenium, a trace mineral, than European varieties [source: Shewry].
+Levels of all proteins are lower overall in European wheat compared to American varieties
+
+Benefits using Plant Trait Ontology
+	https://planteome.org/node/166
+The Plant Trait Ontology Links Wheat Traits for Crop Improvement and Genomics
+
+
+Google search using Machine Readable Identifier (MREID)
+wheat MREID: /m/09rdm_
+	https://www.google.com/search?kgmid=/m/09rdm_
+	https://angryloki.github.io/mreid-resolver/#/m/09rdm_
+
+also
+	https://www.wikidata.org/wiki/Q15645384
+see:
+	https://www.wikidata.org/wiki/Property:P2671
+identifier
+	/g/1z0spj8ds
+search
+	https://www.google.com/search?kgmid=/g/1z0spj8ds
+
+old ID
+	/m/09696
+	https://angryloki.github.io/mreid-resolver/#/m/09696
